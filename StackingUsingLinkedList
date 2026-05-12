@@ -38,4 +38,23 @@ class Node {
 
 
         //peel/top operation: Retrive the value of topset element witchout removing
-       c
+        void peek()
+        {
+            if (top == NULL)
+            {
+                cout << "List is Empty." << endl;
+            }
+            else
+            {
+                Node *current = top;
+                while (current != NULL)
+                {
+                    cout << current->data << " " << endl;
+                    curreent = current->next;
+                }
+                cout << endl;
+
+            } //return the value of the top node
+        }
+
+        /
