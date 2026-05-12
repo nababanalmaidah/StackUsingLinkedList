@@ -36,6 +36,7 @@ class Node {
 
         //pop operation: Remove the topmost element from the stack
 
+
         //peel/top operation: Retrive the value of topset element witchout removing
         void peek()
         {
