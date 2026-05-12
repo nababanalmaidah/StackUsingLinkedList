@@ -14,8 +14,8 @@ class Node {
     }
 };
 
-//STACK class
-class Stack {
+// STACK class
+ class Stack {
     private:
         Node* top;
 
